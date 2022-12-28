@@ -9,6 +9,15 @@
             <h1>Hi, I'm Steven</h1>
         </div>
     </div>
+    <div id="profile-paragraph-container">
+        <p id="profile-paragraph">
+            BSc. Informatie- en Communicatietechnologie (ICT) behaald aan de
+            Hogeschool Windesheim in Almere in juli 2022. Vijf stages succesvol
+            afgerond bij VMI Care, Clappform, DAT.Mobility en het Flevoziekenhuis.
+            HAVO diploma behaald in juni 2017. Internationaal georiënteerd en
+            cultureel bewust door jeugd in VS, VK en Singapore.
+        </p>
+    </div>
 </template>
 
 <style lang="scss" scoped>
@@ -34,4 +43,18 @@
         width: 10em;
     }
 }
+
+#profile-paragraph-container {
+    padding : 20px;
+    background-color: lightgray;
+    border-radius: 20px;
+    margin: 20px;
+
+    #profile-paragraph {
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+}
+
 </style>
