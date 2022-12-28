@@ -1,12 +1,14 @@
 <template>
-  <div></div>
+  <profile-content></profile-content>
 </template>
 
 <script>
+import ProfileContent from "./components/ProfileContent.vue"
 
 export default {
   name: 'App',
   components: {
+    ProfileContent
   }
 }
 </script>
