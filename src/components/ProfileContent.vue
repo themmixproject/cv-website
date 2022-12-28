@@ -18,7 +18,51 @@
             cultureel bewust door jeugd in VS, VK en Singapore.
         </p>
     </div>
+    <div id="experience-container">
+        <h1>Experience</h1>
+        <hr/>
+        <experience-content>
+            <template v-slot:experience-name>Junior .NET Developer</template>
+            <template v-slot:experience-company>Capgemini</template>
+            <template v-slot:experience-location>Utrecht</template>
+            <template v-slot:experience-duration>Oct. 2022 - Nov. 2022</template>
+        </experience-content>
+        <experience-content>
+            <template v-slot:experience-name>Stagiar C# Ontwikkelaar</template>
+            <template v-slot:experience-company>VMI Care</template>
+            <template v-slot:experience-location>Almere</template>
+            <template v-slot:experience-duration>Feb. 2022 - Jul. 2022</template>
+        </experience-content>
+        <experience-content>
+            <template v-slot:experience-name>Stagiair Vue.js Ontwikkelaar</template>
+            <template v-slot:experience-company>Clappform</template>
+            <template v-slot:experience-location>Amstelveen</template>
+            <template v-slot:experience-duration>Sept. 2021 - Jan. 2022</template>
+        </experience-content>
+        <experience-content>
+            <template v-slot:experience-name>Stagiair C# Ontwikkelaar</template>
+            <template v-slot:experience-company>VMI Care</template>
+            <template v-slot:experience-location>Almere</template>
+            <template v-slot:experience-duration>Jan. 2020 - Jun. 2020</template>
+        </experience-content>
+        <experience-content>
+            <template v-slot:experience-name>Stagiair ICT Afdeling</template>
+            <template v-slot:experience-company>Flevoziekenhuis</template>
+            <template v-slot:experience-location>Almere</template>
+            <template v-slot:experience-duration>Sept. 2021 - Jan. 2022</template>
+        </experience-content>
+    </div>
 </template>
+
+<script>
+import experienceContent from "./ExperienceContent.vue";
+
+export default {
+    components: {
+        experienceContent
+    }
+};
+</script>
 
 <style lang="scss" scoped>
 #welcome-container {
