@@ -101,4 +101,7 @@ export default {
 
 }
 
+#experience-container{
+    margin: 20px;
+}
 </style>
