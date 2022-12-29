@@ -64,6 +64,66 @@
         >
         </job-content>
     </div>
+    <div id="education-container">
+        <h1>Education</h1>
+        <hr />
+        <job-content
+            name="BSc. Informatie- en Communicatietechnologie (ICT)"
+            company="Hogeschool Windesheim"
+            location="Almere"
+            duration="Sept. 2018 - 2022"
+        ></job-content>
+        <job-content
+            name="Minor Inleiding in de Toegepaste Psychologie"
+            company="Hogeschool Utrecht"
+            location="Utrecht"
+            duration="Feb. 2021 - Jul. 2021"
+        ></job-content>
+        <job-content
+            name="MBO Niveau 4 Applicatie Ontwikkelaar"
+            company="ICT Campus"
+            location="Hilversum"
+            duration="Sept. 2012 - Jul. 2017"
+        ></job-content>
+        <job-content
+            name="HAVO Natuur \& Techniek"
+            company="Alberdink Thijm College"
+            location="Hilversum"
+            duration="Sept. 2012 - Jul. 2017"
+        ></job-content>
+    </div>
+    <div id="project-container">
+        <h1>Projecten</h1>
+        <h2>BSc. Informatie- en Communicatietechnologie (ICT</h2>
+        <ul>
+            <li>
+                Applicatie voor fietsenwinkels waarin bijgehouden kan worden
+                welke fietsen in welke winkels op voorraad zijn (C\# .NET)
+            </li>
+            <li>
+                Administrative applicatie voor een studentenhuis waarin de
+                gebruikers\\kunnen aangeven welk voorwerp is toegekend aan welke
+                bewoner\\(PHP Laravel)
+            </li>
+            <li>
+                Chat-applicatie met verschillende kanalen voor
+                ICT-gerelateerde\\onderwerpen (PHP Laravel)
+            </li>
+            <li>item Webshop voor CD's en LP's (PHP Lumen)</li>
+            <li>
+                Quiz website waar de gebruiker een quiz over HTML, CSS en
+                Javascript kan doen (HTML/CSS/Javascript)
+            </li>
+        </ul>
+
+        <h2>MBO Niveau 4 Applicatie Ontwikkelaar</h2>
+        <ul>
+            <li>
+                Games website gemaakt met Pac Man, Pong, Flappy Bird, Tetris en
+                Memory (HTML/CSS/Javascript)
+            </li>
+        </ul>
+    </div>
 </template>
 
 <script>
