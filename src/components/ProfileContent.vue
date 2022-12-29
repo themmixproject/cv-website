@@ -21,57 +21,57 @@
     <div id="experience-container">
         <h1>Experience</h1>
         <hr />
-        <experience-content
+        <job-content
             name="Junior .NET Developer"
             company="Capgemini"
             location="Utrecht"
             duration="Oct. 2022 - Nov. 2022"
         >
-        </experience-content>
-        <experience-content
+        </job-content>
+        <job-content
             name="Stagiar C# Ontwikkelaar"
             company="VMI Care"
             location="Almere"
             duration="Oct. 2022 - Nov. 2022"
         >
-        </experience-content>
-        <experience-content
+        </job-content>
+        <job-content
             name="Stagiar Vue.js Ontwikkelar"
             company="Clappform"
             location="Amstelveen"
             duration="Sept. 2021 - Jan. 2021"
         >
-        </experience-content>
-        <experience-content
+        </job-content>
+        <job-content
             name="Stagiar Angular Ontwikkelaar"
             company="DAT.Mobility"
             location="Deventer"
             duration="Sept. 2020 - Jun. 2020"
         >
-        </experience-content>
-        <experience-content
+        </job-content>
+        <job-content
             name="Stagiar C# Ontwikkelaar"
             company="VMI Care"
             location="Almere"
             duration="Sept. 2020 - Jun. 2020"
         >
-        </experience-content>
-        <experience-content
+        </job-content>
+        <job-content
             name="Stagiar ICT Afdeling"
             company="Flevoziekenhuis"
             location="Almere"
             duration="Sept. 2019 - Jan. 2020"
         >
-        </experience-content>
+        </job-content>
     </div>
 </template>
 
 <script>
-import experienceContent from "./ExperienceContent.vue";
+import JobContent from "./JobContent.vue";
 
 export default {
     components: {
-        experienceContent
+        JobContent
     }
 };
 </script>
