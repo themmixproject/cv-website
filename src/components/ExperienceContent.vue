@@ -2,18 +2,24 @@
     <div class="experience-container">
         <div>
             <h2 class="experience-title">
-                <slot name="experience-name"></slot>
+                {{ name }}
             </h2>
         </div>
         <div>
-            <slot name="experience-company"></slot>
+            {{ company }}
         </div>
         <div>
-            <slot name="experience-location"></slot>
+            {{ location }}
         </div>
         <div>
-            <slot name="experience-duration"></slot>
+            {{ duration }}
         </div>
-        <hr/>
+        <hr />
     </div>
 </template>
+
+<script>
+export default {
+    props: ["name", "company", "location", "duration"]
+};
+</script>
