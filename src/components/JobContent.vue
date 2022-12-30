@@ -14,12 +14,15 @@
         <div>
             {{ duration }}
         </div>
+        <div>
+            {{ description }}
+        </div>
         <hr />
     </div>
 </template>
 
 <script>
 export default {
-    props: ["name", "company", "location", "duration"]
+    props: ["name", "company", "location", "duration", "description"]
 };
 </script>
