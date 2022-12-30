@@ -40,6 +40,9 @@
             company="Clappform"
             location="Amstelveen"
             duration="Sept. 2021 - Jan. 2021"
+            description="Ontwikkeling van een flexibele visualisatie om de
+                        invloed van variabelen op de resultaten van wiskundige
+                        modellen weer te geven."
         >
         </job-content>
         <job-content
@@ -47,6 +50,8 @@
             company="DAT.Mobility"
             location="Deventer"
             duration="Sept. 2020 - Jun. 2020"
+            description="Ontwikkeling van een dashboard voor een applicatie die
+                        verkeersdrukte voorspelt."
         >
         </job-content>
         <job-content
@@ -54,6 +59,7 @@
             company="VMI Care"
             location="Almere"
             duration="Sept. 2020 - Jun. 2020"
+            description="Ontwikkeling van een urenregistratiesysteem inclusief communicatie met de ontwikkelomgeving (Azure DevOps)."
         >
         </job-content>
         <job-content
@@ -61,6 +67,7 @@
             company="Flevoziekenhuis"
             location="Almere"
             duration="Sept. 2019 - Jan. 2020"
+            description="Advisering over de implementatie van verschillende asset management (CMDB) modules."
         >
         </job-content>
     </div>
@@ -86,7 +93,7 @@
             duration="Sept. 2012 - Jul. 2017"
         ></job-content>
         <job-content
-            name="HAVO Natuur \& Techniek"
+            name="HAVO Natuur & Techniek"
             company="Alberdink Thijm College"
             location="Hilversum"
             duration="Sept. 2012 - Jul. 2017"
@@ -103,7 +110,7 @@
             <li>
                 Administrative applicatie voor een studentenhuis waarin de
                 gebruikers\\kunnen aangeven welk voorwerp is toegekend aan welke
-                bewoner\\(PHP Laravel)
+                bewoner (PHP Laravel)
             </li>
             <li>
                 Chat-applicatie met verschillende kanalen voor
