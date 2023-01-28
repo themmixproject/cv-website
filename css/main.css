@@ -1,0 +1,33 @@
+html, body {
+    background-color: #221a0f;
+    color: #DC3958;
+    font-family: Arial, Helvetica, sans-serif;}
+
+#nav-container {
+        position: fixed;
+    top: 0;
+    bottom: 0;
+}
+
+#nav-container nav {
+    height: 100%;
+
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    border-right: 2px solid #4a3d2c;
+}
+
+#nav-container nav ul {
+    font-size: 30px;
+    text-align: center;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+    list-style: none;
+    
+    padding: 0;
+    padding: 0 40px;
+}
