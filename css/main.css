@@ -2,13 +2,24 @@ html, body {
     background-color: #221a0f;
     font-family: Arial, Helvetica, sans-serif;
     color: #D3AF86;
+    font-size: 15px;
 }
+
+nav ul {
+    color: #8AB1B0;
+    list-style: none;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    color: #DC3958;
+}
+
 
 #nav-container {
     position: fixed;
     top: 0;
     bottom: 0;
-    color: #DC3958;
 }
 
 #nav-container nav {
@@ -28,22 +39,47 @@ html, body {
     flex-direction: column;
     justify-content: space-evenly;
     
-    list-style: none;
-    
-    padding: 0;
     padding: 0 20px;
 }
 
 #page-content {
-    margin-left: 230px;
-    padding-left: 50px;
+    margin-left: 190px;
+    padding: 0 60px;
     font-size: 1.5em;
 }
 
-h1 {
-    color: #DC3958;
+#experience-container {
+    border-top: 2px solid #362712;
+    display: flex;
+    flex-direction: row;
 }
 
+#experience-nav ul li {
+    margin-top: 1em;
+}
+
+.experience-attribute-container {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+#experience-information {
+    margin-left: 20px;
+}
+
+#experience-container .experience-attribute {
+    color: #F79A32;
+    font-style: italic;
+}
+
+#experience-content {
+    margin-left: 40px;
+}
+
+#experience-container #experience-description {
+    margin-top: 20px;
+}
 
 
 
