@@ -77,21 +77,58 @@ h1, h2, h3, h4 {
     box-sizing: border-box;
     margin: 32px 0px;
 }
-
 .skill-progress-indicator {
     padding: 12px 24px;
     font-size: 3em;
     background-color: #889B4A;
     box-sizing: inherit;
 }
-
 #skills-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 65px;
 }
-
 .skills-list {
     flex: 47.5%;
 }
+
+
+
+#projects-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 20% 1 0px;
+}
+
+.project-card-container {
+    max-width: 25%;
+}
+.project-card {
+    padding: 12px 24px;
+    background-color: #362712;
+    margin: 10px;
+}
+.project-tech-container {
+    font-size: 0.7em;
+    color: #F79A32;
+    font-family: monospace;
+}
+
+@media screen and (max-width: 1840px) {
+    .project-card-container {
+        max-width: 33.333333%;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .project-card-container {
+        max-width: 50%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .project-card-container {
+        max-width: 100%;
+    }
+}
+
